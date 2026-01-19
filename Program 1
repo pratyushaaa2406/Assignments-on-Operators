@@ -1,0 +1,11 @@
+#Program 1: Program to find maximum of 3 numbers
+
+#Input 3 numbers from the user
+num1=int(input("Enter first number: "))
+num2=int(input("Enter second number: "))
+num3=int(input("Enter third number: "))
+
+#Use in-built max function
+max_num=max(num1,num2,num3)
+
+print("The largest number is ",max_num)
