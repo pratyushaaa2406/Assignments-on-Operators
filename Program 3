@@ -1,0 +1,16 @@
+#Program 3: Program to check Roots of a Quadratic Equation
+
+a=float(input("Enter a (non-zero): "))
+b=float(input("Enter b: "))
+c=float(input("Enter c: "))
+
+D=b*b-4*a*c
+if D>0:
+    R1= int((-b+D**0.5)/(2*a))
+    R2= int((-b-D**0.5)/(2*a))
+    print(f"Real & Distinct Roots {R1} and {R2}")
+elif D==0:
+    R=int(-b/(2*a))
+    print(f"Real & Equal Roots {R}")
+else:
+    print("Imaginary Roots")
