@@ -1,0 +1,21 @@
+#Program 4: Program to calculate time difference in seconds
+
+#Enter first time-stamp
+hour1=int(input("Enter First Hours: "))
+min1=int(input("Enter First Minutes: "))
+sec1=int(input("Enter First Seconds: "))
+
+#Total time in seconds
+t1=hour1*3600+min1*60+sec1
+
+#Enter second time-stamp
+hour2=int(input("Enter Second Hours: "))
+min2=int(input("Enter Second Minutes: "))
+sec2=int(input("Enter Second Seconds: "))
+
+#Total  time in seconds
+t2=hour2*3600+min2*60+sec2
+
+time_diff=t2-t1
+
+print("The time difference in seconds is ",time_diff)
